@@ -1,0 +1,124 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.hra {
+  max-width: 600px;
+}
+
+/* -------hraci---------- */
+.hraci {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.adela,
+.honza {
+  display: flex;
+}
+.honza-img,
+.adela-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.barva-hrace {
+  display: block;
+}
+.jmeno {
+  display: block;
+  font-size: 23px;
+  font-weight: 600;
+}
+.popisky-adela {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.popisky-honza {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+/* -------sachovnice---------- */
+.sachovnice {
+  border: 8px solid #5d1c0d;
+  border-radius: 5px;
+  background-image: url('obrazky/sachovnice.png');
+  width: 548px;
+  height: 548px;
+  display: grid;
+  grid-template-rows: repeat(8, 12.5%);
+  grid-template-columns: repeat(8, 12.5%);
+}
+
+.figurka {
+  height: 100%;
+}
+.figurka-1 {
+  grid-column: 5;
+  grid-row: 1;
+}
+.figurka-2 {
+  grid-column: 6;
+  grid-row: 8;
+}
+.figurka-3 {
+  grid-column: 2;
+  grid-row: 5;
+}
+.figurka-4 {
+  grid-column: 4;
+  grid-row: 4;
+}
+.figurka-5 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.figurka-6 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.figurka-7 {
+  grid-column: 8;
+  grid-row: 4;
+}
+.figurka-8 {
+  grid-column: 6;
+  grid-row: 6;
+}
+.figurka-9 {
+  grid-column: 3;
+  grid-row: 8;
+}
+/* ---------paticka------ */
+.paticka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  /* text-align: center; */
+  margin: 2rem;
+  font-size: 18px;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: cadetblue;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
