@@ -59,7 +59,6 @@ h1 {
   border: 8px solid #5d1c0d;
   border-radius: 5px;
   background-image: url('obrazky/sachovnice.png');
-  background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   grid-template-rows: repeat(8, 1fr);
